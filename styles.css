@@ -225,7 +225,7 @@ img{max-width:100%;display:block}
   .nav-links{gap:18px}
   .hero-card{min-height:auto;grid-template-columns:1fr;background:
     linear-gradient(180deg, rgba(80,66,55,.02), rgba(80,66,55,.06)),
-    url('bottom-photo.png') 64% center / cover no-repeat;}
+    url('hero-photo.png') 64% center / cover no-repeat;}
   .hero-left{padding:36px 24px 32px}
   .hero-left::before{right:-42px;width:110px;filter:blur(16px);opacity:.95}
   .hero-title{font-size:clamp(3.1rem,15vw,4.3rem);max-width:320px}
