@@ -178,7 +178,7 @@ img{max-width:100%;display:block}
 .about-title .accent{color:#be8b62;font-style:italic;font-weight:500}
 .about-copy{max-width:420px;color:#5d554e;font-size:1rem;line-height:1.68;margin:0 0 12px}
 .about-image{
-  border-radius:22px;min-height:330px;overflow:hidden;box-shadow:var(--shadow);
+  border-radius:22px;min-height:230px;overflow:hidden;box-shadow:var(--shadow);
   background:
     linear-gradient(180deg, rgba(80,66,55,.02), rgba(80,66,55,.08)),
     url('bottom-photo.png') center/cover;
