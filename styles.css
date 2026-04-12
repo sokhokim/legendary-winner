@@ -486,10 +486,12 @@ img{max-width:100%;display:block}
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
     url('gabe.png') center/cover;
-
 }
-
-.profile-photo.placeholder3,
+.profile-photo.placeholder3{
+  background:
+    linear-gradient(180deg, rgba(80,66,55,.03), rgba(80,66,55,.10)),
+    url('bottom-photo.png') center/cover;
+}
 .profile-photo.placeholder4{
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
