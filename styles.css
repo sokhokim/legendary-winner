@@ -485,12 +485,12 @@ img{max-width:100%;display:block}
 .profile-photo.placeholder2{
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
-    url('gabebio.png') center/cover;
+    url('gabebio3.png') center/cover;
 }
 .profile-photo.placeholder3{
   background:
     linear-gradient(180deg, rgba(80,66,55,.03), rgba(80,66,55,.10)),
-    url('bottom-photo.png') center/cover;
+    url('amberbio3.png') center/cover;
 }
 .profile-photo.placeholder4{
   background:
