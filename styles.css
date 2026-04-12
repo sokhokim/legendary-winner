@@ -483,6 +483,12 @@ img{max-width:100%;display:block}
     url('bottom-photo.png') center/cover;
 }
 .profile-photo.placeholder2,
+  background:
+    linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
+    url('favicon-leaf.png') center/cover;
+
+}
+
 .profile-photo.placeholder3,
 .profile-photo.placeholder4{
   background:
