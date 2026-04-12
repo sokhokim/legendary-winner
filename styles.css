@@ -178,10 +178,9 @@ img{max-width:100%;display:block}
 .about-title .accent{color:#be8b62;font-style:italic;font-weight:500}
 .about-copy{max-width:420px;color:#5d554e;font-size:1rem;line-height:1.68;margin:0 0 12px}
 .about-image{
-   border-radius:22px;
+  border-radius:22px;
   height:330px;
-  max-width:500px;
-  margin-left:auto;
+  width:100%;
   overflow:hidden;
   box-shadow:var(--shadow);
   background-color:#f6f1eb;
