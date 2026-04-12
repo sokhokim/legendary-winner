@@ -180,10 +180,11 @@ img{max-width:100%;display:block}
 .about-image{
    border-radius:22px;
   height:330px;
+  max-width:500px;
+  margin-left:auto;
   overflow:hidden;
   box-shadow:var(--shadow);
   background-color:#f6f1eb;
-
   background-image:url('bottom-photo.png');
   background-repeat:no-repeat;
   background-position:center;
