@@ -60,7 +60,7 @@ img{max-width:100%;display:block}
   box-shadow:var(--shadow);
   display:grid;
   grid-template-columns:31% 69%;
-  min-height:570px;
+  min-height:370px;
   position:relative;
 }
 .hero-left{
