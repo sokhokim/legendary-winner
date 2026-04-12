@@ -54,13 +54,13 @@ img{max-width:100%;display:block}
 .hero-card{
   background:
     linear-gradient(180deg, rgba(80,66,55,.02), rgba(80,66,55,.06)),
-    url('hero-photo.png') 45% center / cover no-repeat;
+    url('hero-photo.png') 65% center / cover no-repeat;
   border-radius:26px;
   overflow:hidden;
   box-shadow:var(--shadow);
   display:grid;
   grid-template-columns:31% 69%;
-  min-height:370px;
+  min-height:510px;
   position:relative;
 }
 .hero-left{
