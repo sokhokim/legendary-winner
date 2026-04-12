@@ -205,7 +205,7 @@ img{max-width:100%;display:block}
 .content-box ul{padding-left:20px}
 .team-photo{height:240px;border-radius:18px;margin-bottom:16px;background:linear-gradient(180deg, rgba(80,66,55,.03), rgba(80,66,55,.10)),url('bottom-photo.png') center/cover}
 .team-photo.linda{background:linear-gradient(180deg, rgba(80,66,55,.03), rgba(80,66,55,.10)),url('bottom-photo.png') center/cover}
-.team-photo.future{background:linear-gradient(180deg, rgba(80,66,55,.05), rgba(80,66,55,.12)),url('hero-photo.png') center/cover}
+.team-photo.future{background:linear-gradient(180deg, rgba(80,66,55,.05), rgba(80,66,55,.12)),url('bottom-photo.png') center/cover}
 .cta-panel{background:#e9e2d8;border-radius:22px;padding:28px 26px;margin-top:24px}
 .cta-panel h3{margin-top:0}
 .split-list{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
@@ -225,7 +225,7 @@ img{max-width:100%;display:block}
   .nav-links{gap:18px}
   .hero-card{min-height:auto;grid-template-columns:1fr;background:
     linear-gradient(180deg, rgba(80,66,55,.02), rgba(80,66,55,.06)),
-    url('hero-photo.png') 64% center / cover no-repeat;}
+    url('bottom-photo.png') 64% center / cover no-repeat;}
   .hero-left{padding:36px 24px 32px}
   .hero-left::before{right:-42px;width:110px;filter:blur(16px);opacity:.95}
   .hero-title{font-size:clamp(3.1rem,15vw,4.3rem);max-width:320px}
