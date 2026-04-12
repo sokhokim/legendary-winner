@@ -179,15 +179,12 @@ img{max-width:100%;display:block}
 .about-copy{max-width:420px;color:#5d554e;font-size:1rem;line-height:1.68;margin:0 0 12px}
 .about-image{
   border-radius:22px;
-  height:330px;
-  width:100%;
+  min-height:330px;
   overflow:hidden;
   box-shadow:var(--shadow);
-  background-color:#f6f1eb;
-  background-image:url('bottom-photo.png');
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:contain;
+  background:
+    linear-gradient(180deg, rgba(80,66,55,.02), rgba(80,66,55,.08)),
+    url('bottom-photo.png') 50% 20% / cover no-repeat;
 }
 
 .footer{padding:28px 0 36px}
