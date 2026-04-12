@@ -203,9 +203,34 @@ img{max-width:100%;display:block}
 .card p,.card li,.content-box p,.content-box li{color:#675f58}
 .content-box h2,.content-box h3{margin-top:0;font-family:"Cormorant Garamond",serif}
 .content-box ul{padding-left:20px}
-.team-photo{height:240px;border-radius:18px;margin-bottom:16px;background:linear-gradient(180deg, rgba(80,66,55,.03), rgba(80,66,55,.10)),url('bottom-photo.png') center/cover}
-.team-photo.linda{background:linear-gradient(180deg, rgba(80,66,55,.03), rgba(80,66,55,.10)),url('bottom-photo.png') center/cover}
-.team-photo.future{background:linear-gradient(180deg, rgba(80,66,55,.05), rgba(80,66,55,.12)),url('bottom-photo.png') center/cover}
+.team-photo{
+  height:240px;
+  border-radius:18px;
+  margin-bottom:16px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+/* Linda */
+.team-photo.linda{
+  background-image:url('bottom-photo.png');
+}
+
+/* Person 2 */
+.team-photo.clinician-two{
+  background-image:url('gabebio3.png');
+}
+
+/* Person 3 */
+.team-photo.clinician-three{
+  background-image:url('amberbio3.png');
+}
+
+/* Person 4 */
+.team-photo.clinician-four{
+  background-image:url('person4.png');
+}
 .cta-panel{background:#e9e2d8;border-radius:22px;padding:28px 26px;margin-top:24px}
 .cta-panel h3{margin-top:0}
 .split-list{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
