@@ -475,7 +475,7 @@ img{max-width:100%;display:block}
   box-shadow:var(--shadow);
   background:
     linear-gradient(180deg, rgba(80,66,55,.03), rgba(80,66,55,.10)),
-    url('gabe.png') center/cover;
+    url('favicon-leaf.png') center/cover;
 }
 .profile-photo.linda{
   background:
@@ -485,7 +485,7 @@ img{max-width:100%;display:block}
 .profile-photo.placeholder2{
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
-    url('gabe.png') center/cover;
+    url('gabe bio2.png') center/cover;
 }
 .profile-photo.placeholder3{
   background:
