@@ -493,7 +493,7 @@ img{max-width:100%;display:block}
 .profile-photo.placeholder4{
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
-    url('hero-photo.png') center/cover;
+    url('gabe.png') center/cover;
 }
 .profile-meta{
   display:flex;
