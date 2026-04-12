@@ -475,7 +475,7 @@ img{max-width:100%;display:block}
   box-shadow:var(--shadow);
   background:
     linear-gradient(180deg, rgba(80,66,55,.03), rgba(80,66,55,.10)),
-    url('hero-photo.png') center/cover;
+    url('bottom-photo.png') center/cover;
 }
 .profile-photo.linda{
   background:
