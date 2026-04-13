@@ -128,10 +128,13 @@ img{max-width:100%;display:block}
 }
 
 .hero-quote{
-  position:absolute;right:12px;bottom:12px;left:auto;top:auto;width:245px;border: 1px solid rgba(177,134,98,.10);
-  backdrop-filter: blur(2px);background:rgba(250,245,239,.96);
-  border-radius:18px;padding:18px 18px 16px;box-shadow:0 14px 24px rgba(79,69,63,.10);
-  color:#6a625b;font-style:italic;font-size:.94rem;border:1px solid rgba(177,134,98,.10)
+  position: absolute !important;
+  right: 20px !important;
+  bottom: 20px !important;
+  left: auto !important;
+  top: auto !important;
+  width: 232px;
+  z-index: 10;
 }
 .hero-quote::before{
   content:"“";position:absolute;left:14px;top:8px;color:#b27b51;font-size:1.7rem;line-height:1;font-style:normal
