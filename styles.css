@@ -450,12 +450,18 @@ img{max-width:100%;display:block}
 .hero-copy{
   max-width:345px;
 }
+.hero-right{
+  position: relative;
+}
+
 .hero-quote{
-  right:22px;
-  bottom:20px;
-  width:232px;
-  border:1px solid rgba(177,134,98,.10);
-  backdrop-filter: blur(2px);
+  position: absolute !important;
+  right: 20px !important;
+  bottom: 20px !important;
+  left: auto !important;
+  top: auto !important;
+  width: 232px;
+  z-index: 10;
 }
 @media (max-width:700px){
   .hero-right{
