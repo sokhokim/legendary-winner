@@ -128,7 +128,8 @@ img{max-width:100%;display:block}
 }
 
 .hero-quote{
-  position:absolute;right:22px;bottom:22px;left:31%;width:245px;background:rgba(250,245,239,.96);
+  position:absolute;right:12px;bottom:12px;left:auto;top:auto;width:245px;border: 1px solid rgba(177,134,98,.10);
+  backdrop-filter: blur(2px);background:rgba(250,245,239,.96);
   border-radius:18px;padding:18px 18px 16px;box-shadow:0 14px 24px rgba(79,69,63,.10);
   color:#6a625b;font-style:italic;font-size:.94rem;border:1px solid rgba(177,134,98,.10)
 }
