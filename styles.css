@@ -475,13 +475,14 @@ img{max-width:100%;display:block}
   }
 }
 
-.specialties {
+.specialties-img {
   width: 100%;
-  min-height: 520px;
-  border-radius: 20px;
-  overflow: hidden;
-  background: url('specialties.png') center top / contain no-repeat;
-  background-color: #f7f5f2;
+  max-width: 1100px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
 }
 /* Team page only additions */
 .grid-4{
