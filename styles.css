@@ -477,15 +477,11 @@ img{max-width:100%;display:block}
 
 .specialties {
   width: 100%;
-  min-height: 420px; /* adjust height */
+  min-height: 520px;
   border-radius: 20px;
   overflow: hidden;
-
-  background:
-    linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),
-    url('specialties.png') center / cover no-repeat;
-
-  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  background: url('specialties.png') center top / contain no-repeat;
+  background-color: #f7f5f2;
 }
 /* Team page only additions */
 .grid-4{
