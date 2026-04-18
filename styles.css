@@ -476,15 +476,16 @@ img{max-width:100%;display:block}
 }
 
 .specialties {
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #f7f5f2; /* optional soft background */
-}
+  width: 100%;
+  min-height: 420px; /* adjust height */
+  border-radius: 20px;
+  overflow: hidden;
 
-.specialties-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px; /* optional for softer look */
+  background:
+    linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),
+    url('specialties.png') center / cover no-repeat;
+
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
 }
 /* Team page only additions */
 .grid-4{
