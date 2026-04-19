@@ -221,17 +221,17 @@ img{max-width:100%;display:block}
 
 /* Linda */
 .team-photo.linda{
-  background-image:url('bottom-photo.png');
+  background-image:url('lindabio.png');
 }
 
 /* Person 2 */
 .team-photo.clinician-two{
-  background-image:url('gabebio3.png');
+  background-image:url('gabebio.png');
 }
 
 /* Person 3 */
 .team-photo.clinician-three{
-  background-image:url('amberbio3.png');
+  background-image:url('amberbio.png');
 }
 
 /* Person 4 */
@@ -530,17 +530,17 @@ img{max-width:100%;display:block}
 .profile-photo.linda{
   background:
     linear-gradient(180deg, rgba(80,66,55,.03), rgba(80,66,55,.10)),
-    url('bottom-photo.png') center/cover;
+    url('lindabio.png') center/cover;
 }
 .profile-photo.placeholder2{
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
-    url('gabebio3.png') center/cover;
+    url('gabebio.png') center/cover;
 }
 .profile-photo.placeholder3{
   background:
     linear-gradient(180deg, rgba(80,66,55,.03), rgba(80,66,55,.10)),
-    url('amberbio3.png') center/cover;
+    url('amberbio.png') center/cover;
 }
 .profile-photo.placeholder4{
   background:
