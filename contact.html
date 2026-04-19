@@ -123,15 +123,15 @@
       <div class="card content">
         <h3>Business Hours</h3>
 
-        <div class="hours">
-          <div>Mon</div><div>7:00 am – 6:00 pm</div>
-          <div>Tue</div><div>7:00 am – 6:00 pm</div>
-          <div>Wed</div><div>7:00 am – 6:00 pm</div>
-          <div>Thu</div><div>7:00 am – 6:00 pm</div>
-          <div>Fri</div><div>7:00 am – 6:00 pm</div>
-          <div>Sat</div><div>Closed</div>
-          <div>Sun</div><div>Closed</div>
-        </div>
+    <div class="hours">
+  <div data-day="mon">Mon</div><div>7:00 am – 6:00 pm</div>
+  <div data-day="tue">Tue</div><div>7:00 am – 6:00 pm</div>
+  <div data-day="wed">Wed</div><div>7:00 am – 6:00 pm</div>
+  <div data-day="thu">Thu</div><div>7:00 am – 6:00 pm</div>
+  <div data-day="fri">Fri</div><div>7:00 am – 6:00 pm</div>
+  <div data-day="sat">Sat</div><div>Closed</div>
+  <div data-day="sun">Sun</div><div>Closed</div>
+</div>
 
         <div style="margin-top:30px;">
           <h3>Contact Information</h3>
@@ -157,6 +157,18 @@
     </div>
   </div>
 </footer>
+<script>
+  const days = ["sun","mon","tue","wed","thu","fri","sat"];
+  const today = days[new Date().getDay()];
 
+  document.querySelectorAll(".hours div[data-day]").forEach(el => {
+    if (el.dataset.day === today) {
+      el.classList.add("today");
+      if (el.nextElementSibling) {
+        el.nextElementSibling.classList.add("today");
+      }
+    }
+  });
+</script>
 </body>
 </html>
