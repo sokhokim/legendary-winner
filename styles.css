@@ -617,3 +617,37 @@ img{max-width:100%;display:block}
     min-height: 260px;
   }
 }
+/* HOURS – POLISHED VERSION */
+.hours {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  row-gap: 10px;
+  column-gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Days (left side) */
+.hours div:nth-child(odd) {
+  text-align: left;
+  font-weight: 500;
+  color: #5b5147;
+}
+
+/* Times (right side) */
+.hours div:nth-child(even) {
+  text-align: right;
+  color: #3d362f;
+}
+
+/* Subtle divider lines between rows */
+.hours div {
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+/* Remove border from last row */
+.hours div:last-child,
+.hours div:nth-last-child(2) {
+  border-bottom: none;
+}
