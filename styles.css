@@ -617,37 +617,57 @@ img{max-width:100%;display:block}
     min-height: 260px;
   }
 }
-/* HOURS – POLISHED VERSION */
+/* HOURS – POLISHED + ICONS */
 .hours {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto auto;
   row-gap: 10px;
-  column-gap: 20px;
+  column-gap: 16px;
   align-items: center;
   margin-top: 10px;
+  font-size: 0.95rem;
 }
 
-/* Days (left side) */
+/* Days */
 .hours div:nth-child(odd) {
-  text-align: left;
   font-weight: 500;
   color: #5b5147;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-/* Times (right side) */
+/* Add subtle calendar icon */
+.hours div:nth-child(odd)::before {
+  content: "•"; /* simple subtle dot */
+  font-size: 0.8rem;
+  color: #c8b8a6;
+}
+
+/* Times */
 .hours div:nth-child(even) {
-  text-align: right;
   color: #3d362f;
 }
 
-/* Subtle divider lines between rows */
+/* Divider lines */
 .hours div {
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,0.06);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
-/* Remove border from last row */
+/* Remove last row border */
 .hours div:last-child,
 .hours div:nth-last-child(2) {
   border-bottom: none;
+}
+
+/* TODAY HIGHLIGHT */
+.hours .today {
+  font-weight: 600;
+  color: #2f2a25;
+}
+
+.hours .today::before {
+  content: "●";
+  color: #b89b7a; /* warm accent */
 }
