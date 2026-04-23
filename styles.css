@@ -238,6 +238,21 @@ img{max-width:100%;display:block}
 .team-photo.clinician-four{
   background-image:url('person4.png');
 }
+
+/* Person 5 */
+.team-photo.clinician-four{
+  background-image:url('person4.png');
+}
+
+/* Person 6 */
+.team-photo.clinician-four{
+  background-image:url('person4.png');
+}
+
+/* Person 7 */
+.team-photo.clinician-four{
+  background-image:url('sokhobio.png');
+}
 .cta-panel{background:#e9e2d8;border-radius:22px;padding:28px 26px;margin-top:24px}
 .cta-panel h3{margin-top:0}
 .split-list{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
@@ -546,6 +561,21 @@ img{max-width:100%;display:block}
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
     url('gabe.png') center/cover;
+}
+.profile-photo.placeholder5{
+  background:
+    linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
+    url('gabe.png') center/cover;
+}
+.profile-photo.placeholder6{
+  background:
+    linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
+    url('gabe.png') center/cover;
+}
+.profile-photo.placeholder7{
+  background:
+    linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
+    url('sokhobio.png') center/cover;
 }
 .profile-meta{
   display:flex;
