@@ -240,17 +240,17 @@ img{max-width:100%;display:block}
 }
 
 /* Person 5 */
-.team-photo.clinician-four{
+.team-photo.clinician-five{
   background-image:url('person4.png');
 }
 
 /* Person 6 */
-.team-photo.clinician-four{
+.team-photo.clinician-six{
   background-image:url('person4.png');
 }
 
 /* Person 7 */
-.team-photo.clinician-four{
+.team-photo.clinician-seven{
   background-image:url('sokhobio.png');
 }
 .cta-panel{background:#e9e2d8;border-radius:22px;padding:28px 26px;margin-top:24px}
