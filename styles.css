@@ -226,27 +226,27 @@ img{max-width:100%;display:block}
 
 /* Person 2 */
 .team-photo.clinician-two{
-  background-image:url('gabebio.PNG');
+  background-image:url('kaylabio.PNG');
 }
 
 /* Person 3 */
 .team-photo.clinician-three{
-  background-image:url('amberbio.png');
+  background-image:url('shanarabio.PNG');
 }
 
 /* Person 4 */
 .team-photo.clinician-four{
-  background-image:url('person4.png');
+  background-image:url('gabebio.PNG');
 }
 
 /* Person 5 */
 .team-photo.clinician-five{
-  background-image:url('person4.png');
+  background-image:url('amberbio.png');
 }
 
 /* Person 6 */
 .team-photo.clinician-six{
-  background-image:url('kaylabio.PNG');
+  background-image:url('hannahbio.PNG');
 }
 
 /* Person 7 */
@@ -550,27 +550,27 @@ img{max-width:100%;display:block}
 .profile-photo.placeholder2{
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
-    url('gabebio.PNG') center/cover;
+    url('kaylabio.PNG') center/cover;
 }
 .profile-photo.placeholder3{
   background:
     linear-gradient(180deg, rgba(80,66,55,.03), rgba(80,66,55,.10)),
-    url('amberbio.png') center/cover;
+    url('shanarabio.PNG') center/cover;
 }
 .profile-photo.placeholder4{
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
-    url('gabe.png') center/cover;
+    url('gabebio.PNG') center/cover;
 }
 .profile-photo.placeholder5{
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
-    url('gabe.png') center/cover;
+    url('amberbio.png') center/cover;
 }
 .profile-photo.placeholder6{
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
-    url('kaylabio.PNG') center/cover;
+    url('hannahbio.PNG') center/cover;
 }
 .profile-photo.placeholder7{
   background:
