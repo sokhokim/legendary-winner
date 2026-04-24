@@ -246,7 +246,7 @@ img{max-width:100%;display:block}
 
 /* Person 6 */
 .team-photo.clinician-six{
-  background-image:url('hannahbio.PNG');
+  background-image:url('hannahbio.png');
 }
 
 /* Person 7 */
@@ -570,7 +570,7 @@ img{max-width:100%;display:block}
 .profile-photo.placeholder6{
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
-    url('hannahbio.PNG') center/cover;
+    url('hannahbio.png') center/cover;
 }
 .profile-photo.placeholder7{
   background:
