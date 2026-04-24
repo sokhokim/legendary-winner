@@ -251,7 +251,7 @@ img{max-width:100%;display:block}
 
 /* Person 7 */
 .team-photo.clinician-seven{
-  background-image:url('sokhobio.png');
+  background-image:url('sokhobio.PNG');
 }
 .cta-panel{background:#e9e2d8;border-radius:22px;padding:28px 26px;margin-top:24px}
 .cta-panel h3{margin-top:0}
@@ -575,7 +575,7 @@ img{max-width:100%;display:block}
 .profile-photo.placeholder7{
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
-    url('sokhobio.png') center/cover;
+    url('sokhobio.PNG') center/cover;
 }
 .profile-meta{
   display:flex;
