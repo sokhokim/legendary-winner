@@ -226,7 +226,7 @@ img{max-width:100%;display:block}
 
 /* Person 2 */
 .team-photo.clinician-two{
-  background-image:url('gabebio.png');
+  background-image:url('gabebio.PNG');
 }
 
 /* Person 3 */
@@ -550,7 +550,7 @@ img{max-width:100%;display:block}
 .profile-photo.placeholder2{
   background:
     linear-gradient(180deg, rgba(80,66,55,.04), rgba(80,66,55,.12)),
-    url('gabebio.png') center/cover;
+    url('gabebio.PNG') center/cover;
 }
 .profile-photo.placeholder3{
   background:
